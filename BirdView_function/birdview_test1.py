@@ -1,7 +1,7 @@
 """
 鳥瞰変換のコード(ファンクション)
 18.11.16~
-T.KATO
+Author: BokeLover
 
 ARGS:
     input: Original Image
@@ -91,8 +91,7 @@ def bird_view_transform(img_src):
                     if int(oX) + 1 >= width or int(oY) + 1 >= height:
                         top_view[y, x, col] = img_src[int(oY), int(oX), col] / 255
                         continue
-                    # bilinear TF
-
+                    # bilinear TransForm
                     f11 = img_src[int(oY), int(oX), col]
                     f12 = img_src[int(oY) + 1, int(oX), col]
                     f21 = img_src[int(oY), int(oX) + 1, col]
