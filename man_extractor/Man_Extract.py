@@ -12,7 +12,7 @@ import skimage.util
 import skimage.segmentation
 
 """
-'19. 1. 22 T.Kato
+'19. 1. 22 Bokelover
 !! CAUTION !! This code need scikit-Image beta (0.15β) 
 """
 # >================ Function ================<
